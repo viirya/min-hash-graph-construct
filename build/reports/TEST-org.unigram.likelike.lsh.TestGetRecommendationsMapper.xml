@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="viirya-laptop" name="org.unigram.likelike.lsh.TestGetRecommendationsMapper" tests="1" time="0.793" timestamp="2010-09-06T03:11:08">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="ivy.conf.dir" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="lib.dir" value="/home/viirya/repos/likelike-read-only/lib" />
+    <property name="package" value="likelike-0.2" />
+    <property name="core.build.dir" value="/home/viirya/repos/likelike-read-only/build/core" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ivy.configurations" value="*" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="ivy.conf.url" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings/ivysettings-public.xml" />
+    <property name="likelike.jar" value="likelike-0.2.jar" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/classes" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="ivy.module" value="likelike" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ivy.default.conf.dir" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.6.0_18-b18" />
+    <property name="examples.build.dir" value="/home/viirya/repos/likelike-read-only/build/examples" />
+    <property name="test.build.dir" value="/home/viirya/repos/likelike-read-only/build/test" />
+    <property name="ivy.lib.dir" value="/home/viirya/repos/likelike-read-only/build/test/ivy/lib/likelike" />
+    <property name="ivy.default.settings.dir" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="build.ivy.lib.dir" value="/home/viirya/repos/likelike-read-only/build/test/ivy/lib" />
+    <property name="user.name" value="viirya" />
+    <property name="ivy.home" value="/home/viirya/.ivy2" />
+    <property name="ivy.revision" value="working@viirya-laptop" />
+    <property name="build.dir" value="/home/viirya/repos/likelike-read-only/build" />
+    <property name="ivy.dir" value="/home/viirya/repos/likelike-read-only/ivy" />
+    <property name="common.ivy.lib.dir" value="/home/viirya/repos/likelike-read-only/build/test/ivy/lib/likelike/common" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/amd64" />
+    <property name="ivy.deliver.ivy.pattern" value="${ivy.distrib.dir}/[type]s/[artifact]-[revision].[ext]" />
+    <property name="reports.dir" value="/home/viirya/repos/likelike-read-only/build/reports" />
+    <property name="ivy.url" value="http://repo1.maven.org/maven2/org/apache/ivy/ivy" />
+    <property name="testlib.dir" value="/home/viirya/repos/likelike-read-only/testlib" />
+    <property name="ivy.log.modules.in.use" value="false" />
+    <property name="doc.dir" value="/home/viirya/repos/likelike-read-only/doc" />
+    <property name="ant.project.name" value="likelike" />
+    <property name="ivy.settings.file" value="ivysettings.xml" />
+    <property name="java.version" value="1.6.0_18" />
+    <property name="version" value="0.2" />
+    <property name="user.timezone" value="" />
+    <property name="ivy.resolved.configurations" value="common" />
+    <property name="ivy.organisation" value="org.unigram" />
+    <property name="ivy.resolve.default.type.filter" value="*" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ivy.retrieve.pattern" value="/home/viirya/repos/likelike-read-only/build/test/ivy/lib/likelike/[artifact]-[revision].[ext]" />
+    <property name="ivy.cache.dir" value="/home/viirya/.ivy2/cache" />
+    <property name="test.resource.dir" value="/home/viirya/repos/likelike-read-only/src/test/resources" />
+    <property name="test.src.dir" value="/home/viirya/repos/likelike-read-only/src/test" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ivy.artifact.retrieve.pattern" value="likelike/[conf]/[artifact]-[revision].[ext]" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk/jre" />
+    <property name="dist.dir" value="/home/viirya/repos/likelike-read-only/build/likelike-0.2" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ivy.build.artifacts.dir" value="/home/viirya/repos/likelike-read-only/build/artifacts" />
+    <property name="ant.file" value="/home/viirya/repos/likelike-read-only/build.xml" />
+    <property name="os.version" value="2.6.32-24-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="16.0-b13" />
+    <property name="ant.file.likelike" value="/home/viirya/repos/likelike-read-only/build.xml" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ivy.status" value="integration" />
+    <property name="core.src.dir" value="/home/viirya/repos/likelike-read-only/src/core" />
+    <property name="user.home" value="/home/viirya" />
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="examples.src.dir" value="/home/viirya/repos/likelike-read-only/src/examples" />
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on July 1 2010" />
+    <property name="java.class.path" value="/home/viirya/repos/likelike-read-only/lib/apache-cassandra-0.6.0.jar:/home/viirya/repos/likelike-read-only/lib/cassandra-javautils.jar:/home/viirya/repos/likelike-read-only/lib/hector-0.6.0-15.jar:/home/viirya/repos/likelike-read-only/lib/libthrift-r917130.jar:/home/viirya/repos/likelike-read-only/likelike-0.2-examples.jar:/home/viirya/repos/likelike-read-only/likelike-0.2-test.jar:/home/viirya/repos/likelike-read-only/likelike-0.2.jar:/home/viirya/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar:/home/viirya/.ivy2/cache/org.codehaus.httpcache4j.resolvers/resolvers-commons-httpclient/jars/resolvers-commons-httpclient-2.2.jar:/home/viirya/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar:/home/viirya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar:/home/viirya/.ivy2/cache/org.codehaus.httpcache4j/httpcache4j-api/jars/httpcache4j-api-2.2.jar:/home/viirya/.ivy2/cache/commons-io/commons-io/jars/commons-io-1.4.jar:/home/viirya/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar:/home/viirya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.3.jar:/home/viirya/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/home/viirya/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.0.jar:/home/viirya/.ivy2/cache/commons-logging/commons-logging-api/jars/commons-logging-api-1.0.4.jar:/home/viirya/.ivy2/cache/org.apache.mahout.hadoop/hadoop-core/jars/hadoop-core-0.20.1.jar:/home/viirya/.ivy2/cache/junit/junit/jars/junit-4.6.jar:/home/viirya/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-1.8.2.jar:/home/viirya/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.0.jar:/home/viirya/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar:/home/viirya/.ivy2/cache/log4j/log4j/jars/log4j-1.2.14.jar:/home/viirya/.ivy2/cache/org.perf4j/perf4j/jars/perf4j-0.9.12.jar:/home/viirya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar:/home/viirya/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.8.jar:/home/viirya/.ivy2/cache/com.google.collections/google-collections/jars/google-collections-1.0.jar:/home/viirya/repos/likelike-read-only/testlib/clhm-production-1.0.jar:/home/viirya/repos/likelike-read-only/testlib/commons-lang-2.4.jar:/home/viirya/repos/likelike-read-only/testlib/flexjson-1.7.jar:/home/viirya/repos/likelike-read-only/testlib/high-scale-lib-1.0.jar:/home/viirya/repos/likelike-read-only/build/test/resources:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar" />
+    <property name="build.ivy.dir" value="/home/viirya/repos/likelike-read-only/build/test/ivy" />
+    <property name="likelike-examples.jar" value="likelike-0.2-examples.jar" />
+    <property name="ivy.settings.dir" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.install.version" value="2.0.0-beta1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="likelike-test.jar" value="likelike-0.2-test.jar" />
+    <property name="ivy.settings.url" value="jar:file:/home/viirya/repos/likelike-read-only/ivy/ivy.jar!/org/apache/ivy/core/settings/ivysettings-public.xml" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ivy.nb.targets.copied" value="0" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="ivy.deps.changed" value="false" />
+    <property name="conf.dir" value="/home/viirya/repos/likelike-read-only/conf" />
+    <property name="ivy.default.always.check.exact.revision" value="true" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="ivy.project.dir" value="/home/viirya/repos/likelike-read-only" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/viirya/repos/likelike-read-only" />
+    <property name="test.build.resource.dir" value="/home/viirya/repos/likelike-read-only/build/test/resources" />
+    <property name="ivy.jar.file" value="/home/viirya/repos/likelike-read-only/ivy/ivy.jar" />
+    <property name="ivy.publish.src.artifacts.pattern" value="${ivy.distrib.dir}/[type]s/[artifact]-[revision].[ext]" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ivy.distrib.dir" value="/home/viirya/repos/likelike-read-only/distrib" />
+    <property name="basedir" value="/home/viirya/repos/likelike-read-only" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ivy.resolved.file" value="/home/viirya/repos/likelike-read-only/ivy.xml" />
+    <property name="ivy.targets.copied" value="false" />
+    <property name="ivy.resolver.default.check.modified" value="false" />
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+    <property name="ivy.default.ivy.user.dir" value="/home/viirya/.ivy2" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="/home/viirya/repos/likelike-read-only/src" />
+    <property name="javadoc.dir" value="/home/viirya/repos/likelike-read-only/doc/javadoc" />
+    <property name="ivy.dep.file" value="ivy.xml" />
+    <property name="ivy.checksums" value="sha1,md5" />
+  </properties>
+  <testcase classname="org.unigram.likelike.lsh.TestGetRecommendationsMapper" name="testMap" time="0.655" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

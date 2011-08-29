@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/77/trunk/src/core/org/unigram/likelike/common
+END
+SeedClusterId.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/common/SeedClusterId.java
+END
+LikelikeConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/77/trunk/src/core/org/unigram/likelike/common/LikelikeConstants.java
+END
+FsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/65/trunk/src/core/org/unigram/likelike/common/FsUtil.java
+END
+LikelikeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/common/LikelikeException.java
+END
+LikelikeLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/common/LikelikeLogger.java
+END
+Candidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/common/Candidate.java
+END
+RelatedUsersWritable.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/common/RelatedUsersWritable.java
+END

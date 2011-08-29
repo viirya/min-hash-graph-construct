@@ -1,0 +1,8 @@
+
+for ((  i = 1 ;  i <= 9;  i++  ))
+do
+  hadoop dfs -rmr output/test
+  sh bin/likelike lsh -iterate $i -input data/flickr11k/features/textual -output output/test
+  hadoop dfs -mkdir data/flickr11k/image_pools/textual/iterate$i
+  hadoop dfs -mv output/test/reassigned/*.gz data/flickr11k/image_pools/textual/iterate$i/.
+done

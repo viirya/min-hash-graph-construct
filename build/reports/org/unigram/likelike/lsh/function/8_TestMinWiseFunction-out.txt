@@ -1,0 +1,2 @@
+collisionRate: 0.077
+

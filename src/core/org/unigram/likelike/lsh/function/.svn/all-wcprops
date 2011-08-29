@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/lsh/function
+END
+MinWiseFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/lsh/function/MinWiseFunction.java
+END
+IHashFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/lsh/function/IHashFunction.java
+END
+CalcHashValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/lsh/function/CalcHashValue.java
+END

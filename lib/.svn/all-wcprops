@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/68/trunk/lib
+END
+hector-0.6.0-15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/68/trunk/lib/hector-0.6.0-15.jar
+END
+libthrift-r917130.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/68/trunk/lib/libthrift-r917130.jar
+END
+apache-cassandra-0.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/68/trunk/lib/apache-cassandra-0.6.0.jar
+END
+cassandra-javautils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/68/trunk/lib/cassandra-javautils.jar
+END

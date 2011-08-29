@@ -1,0 +1,540 @@
+Sep 6, 2010 10:48:42 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: No such file: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:42 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+10/09/06 10:48:42 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:42 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:43 INFO mapred.JobClient: Running job: job_local_0001
+10/09/06 10:48:43 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:43 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:43 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:43 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:43 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:43 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:43 INFO mapred.TaskRunner: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:43 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:43 INFO mapred.TaskRunner: Task 'attempt_local_0001_m_000000_0' done.
+10/09/06 10:48:43 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:43 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:43 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 132 bytes
+10/09/06 10:48:43 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:43 INFO mapred.TaskRunner: Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:43 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:43 INFO mapred.TaskRunner: Task attempt_local_0001_r_000000_0 is allowed to commit now
+10/09/06 10:48:43 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0001_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:43 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:43 INFO mapred.TaskRunner: Task 'attempt_local_0001_r_000000_0' done.
+10/09/06 10:48:44 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:44 INFO mapred.JobClient: Job complete: job_local_0001
+10/09/06 10:48:44 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:44 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:44 INFO mapred.JobClient:     FILE_BYTES_READ=117008
+10/09/06 10:48:44 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=146843
+10/09/06 10:48:44 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:44 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:44 INFO mapred.JobClient:     Combine output records=3
+10/09/06 10:48:44 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:48:44 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:44 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:44 INFO mapred.JobClient:     Spilled Records=6
+10/09/06 10:48:44 INFO mapred.JobClient:     Map output bytes=224
+10/09/06 10:48:44 INFO mapred.JobClient:     Combine input records=8
+10/09/06 10:48:44 INFO mapred.JobClient:     Map output records=8
+10/09/06 10:48:44 INFO mapred.JobClient:     Reduce input records=3
+Sep 6, 2010 10:48:44 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:48:44 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:48:44 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:48:44 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:44 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:44 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:44 INFO mapred.JobClient: Running job: job_local_0002
+10/09/06 10:48:44 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:44 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:44 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:44 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:44 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:45 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:45 INFO mapred.TaskRunner: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:45 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:45 INFO mapred.TaskRunner: Task 'attempt_local_0002_m_000000_0' done.
+10/09/06 10:48:45 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:45 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:45 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 574 bytes
+10/09/06 10:48:45 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:45 INFO mapred.TaskRunner: Task:attempt_local_0002_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:45 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:45 INFO mapred.TaskRunner: Task attempt_local_0002_r_000000_0 is allowed to commit now
+10/09/06 10:48:45 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0002_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:48:45 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:45 INFO mapred.TaskRunner: Task 'attempt_local_0002_r_000000_0' done.
+10/09/06 10:48:45 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:45 INFO mapred.JobClient: Job complete: job_local_0002
+10/09/06 10:48:45 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:45 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:45 INFO mapred.JobClient:     FILE_BYTES_READ=234748
+10/09/06 10:48:45 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=294318
+10/09/06 10:48:45 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:45 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:45 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:48:45 INFO mapred.JobClient:     Map input records=3
+10/09/06 10:48:45 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:45 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:45 INFO mapred.JobClient:     Spilled Records=44
+10/09/06 10:48:45 INFO mapred.JobClient:     Map output bytes=528
+10/09/06 10:48:45 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:48:45 INFO mapred.JobClient:     Map output records=22
+10/09/06 10:48:45 INFO mapred.JobClient:     Reduce input records=22
+Sep 6, 2010 10:48:45 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:45 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:45 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:46 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:46 INFO mapred.JobClient: Running job: job_local_0003
+10/09/06 10:48:46 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:46 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:46 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:46 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:46 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:46 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:46 INFO mapred.TaskRunner: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:46 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:46 INFO mapred.TaskRunner: Task 'attempt_local_0003_m_000000_0' done.
+10/09/06 10:48:46 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:46 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:46 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 652 bytes
+10/09/06 10:48:46 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:46 INFO mapred.TaskRunner: Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:46 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:46 INFO mapred.TaskRunner: Task attempt_local_0003_r_000000_0 is allowed to commit now
+10/09/06 10:48:46 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0003_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:46 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:46 INFO mapred.TaskRunner: Task 'attempt_local_0003_r_000000_0' done.
+10/09/06 10:48:47 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:47 INFO mapred.JobClient: Job complete: job_local_0003
+10/09/06 10:48:47 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:47 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:47 INFO mapred.JobClient:     FILE_BYTES_READ=353374
+10/09/06 10:48:47 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=443377
+10/09/06 10:48:47 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:47 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:47 INFO mapred.JobClient:     Combine output records=15
+10/09/06 10:48:47 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:48:47 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:47 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:47 INFO mapred.JobClient:     Spilled Records=30
+10/09/06 10:48:47 INFO mapred.JobClient:     Map output bytes=1120
+10/09/06 10:48:47 INFO mapred.JobClient:     Combine input records=40
+10/09/06 10:48:47 INFO mapred.JobClient:     Map output records=40
+10/09/06 10:48:47 INFO mapred.JobClient:     Reduce input records=15
+Sep 6, 2010 10:48:47 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:48:47 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:48:47 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:48:47 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:47 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:47 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:47 INFO mapred.JobClient: Running job: job_local_0004
+10/09/06 10:48:47 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:47 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:48 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:48 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:48 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:48 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:48 INFO mapred.TaskRunner: Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:48 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:48 INFO mapred.TaskRunner: Task 'attempt_local_0004_m_000000_0' done.
+10/09/06 10:48:48 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:48 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:48 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 2446 bytes
+10/09/06 10:48:48 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:48 INFO mapred.TaskRunner: Task:attempt_local_0004_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:48 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:48 INFO mapred.TaskRunner: Task attempt_local_0004_r_000000_0 is allowed to commit now
+10/09/06 10:48:48 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0004_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:48:48 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:48 INFO mapred.TaskRunner: Task 'attempt_local_0004_r_000000_0' done.
+10/09/06 10:48:48 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:48 INFO mapred.JobClient: Job complete: job_local_0004
+10/09/06 10:48:48 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:48 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:48 INFO mapred.JobClient:     FILE_BYTES_READ=474858
+10/09/06 10:48:48 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=595544
+10/09/06 10:48:48 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:48 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:48 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:48:48 INFO mapred.JobClient:     Map input records=15
+10/09/06 10:48:48 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:48 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:48 INFO mapred.JobClient:     Spilled Records=188
+10/09/06 10:48:48 INFO mapred.JobClient:     Map output bytes=2256
+10/09/06 10:48:48 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:48:48 INFO mapred.JobClient:     Map output records=94
+10/09/06 10:48:48 INFO mapred.JobClient:     Reduce input records=94
+Sep 6, 2010 10:48:48 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:48 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:48 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:48 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:49 INFO mapred.JobClient: Running job: job_local_0005
+10/09/06 10:48:49 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:49 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:49 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:49 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:49 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:49 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:49 INFO mapred.TaskRunner: Task:attempt_local_0005_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:49 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:49 INFO mapred.TaskRunner: Task 'attempt_local_0005_m_000000_0' done.
+10/09/06 10:48:49 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:49 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:49 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 1302 bytes
+10/09/06 10:48:49 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:49 INFO mapred.TaskRunner: Task:attempt_local_0005_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:49 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:49 INFO mapred.TaskRunner: Task attempt_local_0005_r_000000_0 is allowed to commit now
+10/09/06 10:48:49 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0005_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:49 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:49 INFO mapred.TaskRunner: Task 'attempt_local_0005_r_000000_0' done.
+10/09/06 10:48:50 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:50 INFO mapred.JobClient: Job complete: job_local_0005
+10/09/06 10:48:50 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:50 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:50 INFO mapred.JobClient:     FILE_BYTES_READ=596482
+10/09/06 10:48:50 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=747301
+10/09/06 10:48:50 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:50 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:50 INFO mapred.JobClient:     Combine output records=30
+10/09/06 10:48:50 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:48:50 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:50 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:50 INFO mapred.JobClient:     Spilled Records=60
+10/09/06 10:48:50 INFO mapred.JobClient:     Map output bytes=2240
+10/09/06 10:48:50 INFO mapred.JobClient:     Combine input records=80
+10/09/06 10:48:50 INFO mapred.JobClient:     Map output records=80
+10/09/06 10:48:50 INFO mapred.JobClient:     Reduce input records=30
+Sep 6, 2010 10:48:50 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:48:50 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:48:50 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:48:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:50 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:50 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:50 INFO mapred.JobClient: Running job: job_local_0006
+10/09/06 10:48:50 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:50 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:50 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:50 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:50 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:50 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:50 INFO mapred.TaskRunner: Task:attempt_local_0006_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:50 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:50 INFO mapred.TaskRunner: Task 'attempt_local_0006_m_000000_0' done.
+10/09/06 10:48:50 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:50 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:50 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 5410 bytes
+10/09/06 10:48:50 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:51 INFO mapred.TaskRunner: Task:attempt_local_0006_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:51 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:51 INFO mapred.TaskRunner: Task attempt_local_0006_r_000000_0 is allowed to commit now
+10/09/06 10:48:51 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0006_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:48:51 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:51 INFO mapred.TaskRunner: Task 'attempt_local_0006_r_000000_0' done.
+10/09/06 10:48:51 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:51 INFO mapred.JobClient: Job complete: job_local_0006
+10/09/06 10:48:51 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:51 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:51 INFO mapred.JobClient:     FILE_BYTES_READ=723282
+10/09/06 10:48:51 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=906556
+10/09/06 10:48:51 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:51 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:51 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:48:51 INFO mapred.JobClient:     Map input records=30
+10/09/06 10:48:51 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:51 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:51 INFO mapred.JobClient:     Spilled Records=416
+10/09/06 10:48:51 INFO mapred.JobClient:     Map output bytes=4992
+10/09/06 10:48:51 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:48:51 INFO mapred.JobClient:     Map output records=208
+10/09/06 10:48:51 INFO mapred.JobClient:     Reduce input records=208
+10/09/06 10:48:51 INFO config.DatabaseDescriptor: Auto DiskAccessMode determined to be mmap
+10/09/06 10:48:52 INFO db.SystemTable: Saved Token not found. Using IKdvmr1QlBxK0jL0
+10/09/06 10:48:52 INFO db.SystemTable: Saved ClusterName not found. Using Likelike Cluster
+10/09/06 10:48:52 INFO commitlog.CommitLogSegment: Creating new commitlog segment tmp/var/lib/cassandra/commitlog/CommitLog-1283741332424.log
+10/09/06 10:48:52 INFO service.StorageService: Starting up server gossip
+10/09/06 10:48:52 INFO thrift.CassandraDaemon: Binding thrift service to localhost/127.0.0.1:9170
+10/09/06 10:48:52 INFO thrift.CassandraDaemon: Cassandra starting up...
+Sep 6, 2010 10:48:52 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:52 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:52 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:52 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:53 INFO mapred.JobClient: Running job: job_local_0007
+10/09/06 10:48:53 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:53 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:54 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:54 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:54 INFO mapred.JobClient:  map 0% reduce 0%
+10/09/06 10:48:54 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:54 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:54 INFO mapred.TaskRunner: Task:attempt_local_0007_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:54 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:54 INFO mapred.TaskRunner: Task 'attempt_local_0007_m_000000_0' done.
+10/09/06 10:48:54 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:54 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:54 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 132 bytes
+10/09/06 10:48:54 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:54 INFO mapred.TaskRunner: Task:attempt_local_0007_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:54 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:54 INFO mapred.TaskRunner: Task attempt_local_0007_r_000000_0 is allowed to commit now
+10/09/06 10:48:54 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0007_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:54 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:54 INFO mapred.TaskRunner: Task 'attempt_local_0007_r_000000_0' done.
+10/09/06 10:48:55 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:55 INFO mapred.JobClient: Job complete: job_local_0007
+10/09/06 10:48:55 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:55 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:55 INFO mapred.JobClient:     FILE_BYTES_READ=846008
+10/09/06 10:48:55 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1053613
+10/09/06 10:48:55 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:55 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:55 INFO mapred.JobClient:     Combine output records=3
+10/09/06 10:48:55 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:48:55 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:55 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:55 INFO mapred.JobClient:     Spilled Records=6
+10/09/06 10:48:55 INFO mapred.JobClient:     Map output bytes=224
+10/09/06 10:48:55 INFO mapred.JobClient:     Combine input records=8
+10/09/06 10:48:55 INFO mapred.JobClient:     Map output records=8
+10/09/06 10:48:55 INFO mapred.JobClient:     Reduce input records=3
+Sep 6, 2010 10:48:55 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:48:55 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:48:55 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:48:55 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:55 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:55 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:55 INFO mapred.JobClient: Running job: job_local_0008
+10/09/06 10:48:55 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:56 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:56 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:56 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:56 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:56 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:56 INFO mapred.TaskRunner: Task:attempt_local_0008_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:56 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:56 INFO mapred.TaskRunner: Task 'attempt_local_0008_m_000000_0' done.
+10/09/06 10:48:56 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:56 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:56 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 574 bytes
+10/09/06 10:48:56 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:56 INFO service.JmxMonitor: Registering JMX me.prettyprint.cassandra.service:ServiceType=hector,MonitorType=hector
+10/09/06 10:48:56 INFO service.CassandraClientPoolImpl: Creating a CassandraClientPool
+10/09/06 10:48:56 INFO mapred.JobClient:  map 100% reduce 0%
+10/09/06 10:48:57 INFO mapred.TaskRunner: Task:attempt_local_0008_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:57 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:57 INFO mapred.TaskRunner: Task attempt_local_0008_r_000000_0 is allowed to commit now
+10/09/06 10:48:57 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0008_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:48:57 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:57 INFO mapred.TaskRunner: Task 'attempt_local_0008_r_000000_0' done.
+10/09/06 10:48:57 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:57 INFO mapred.JobClient: Job complete: job_local_0008
+10/09/06 10:48:57 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:57 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:57 INFO mapred.JobClient:     FILE_BYTES_READ=963790
+10/09/06 10:48:57 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1201080
+10/09/06 10:48:57 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:57 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:57 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:48:57 INFO mapred.JobClient:     Map input records=3
+10/09/06 10:48:57 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:57 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:57 INFO mapred.JobClient:     Spilled Records=44
+10/09/06 10:48:57 INFO mapred.JobClient:     Map output bytes=528
+10/09/06 10:48:57 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:48:57 INFO mapred.JobClient:     Map output records=22
+10/09/06 10:48:57 INFO mapred.JobClient:     Reduce input records=22
+Sep 6, 2010 10:48:58 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:58 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:58 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:58 INFO mapred.JobClient: Running job: job_local_0009
+10/09/06 10:48:58 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:48:58 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:48:58 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:48:58 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:48:58 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:48:59 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:48:59 INFO mapred.TaskRunner: Task:attempt_local_0009_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:59 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:59 INFO mapred.TaskRunner: Task 'attempt_local_0009_m_000000_0' done.
+10/09/06 10:48:59 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:59 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:48:59 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 652 bytes
+10/09/06 10:48:59 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:59 INFO mapred.TaskRunner: Task:attempt_local_0009_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:48:59 INFO mapred.LocalJobRunner: 
+10/09/06 10:48:59 INFO mapred.TaskRunner: Task attempt_local_0009_r_000000_0 is allowed to commit now
+10/09/06 10:48:59 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0009_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:48:59 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:48:59 INFO mapred.TaskRunner: Task 'attempt_local_0009_r_000000_0' done.
+10/09/06 10:48:59 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:48:59 INFO mapred.JobClient: Job complete: job_local_0009
+10/09/06 10:48:59 INFO mapred.JobClient: Counters: 12
+10/09/06 10:48:59 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:48:59 INFO mapred.JobClient:     FILE_BYTES_READ=1082260
+10/09/06 10:48:59 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1350135
+10/09/06 10:48:59 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:48:59 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:48:59 INFO mapred.JobClient:     Combine output records=15
+10/09/06 10:48:59 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:48:59 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:48:59 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:48:59 INFO mapred.JobClient:     Spilled Records=30
+10/09/06 10:48:59 INFO mapred.JobClient:     Map output bytes=1120
+10/09/06 10:48:59 INFO mapred.JobClient:     Combine input records=40
+10/09/06 10:48:59 INFO mapred.JobClient:     Map output records=40
+10/09/06 10:48:59 INFO mapred.JobClient:     Reduce input records=15
+Sep 6, 2010 10:48:59 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:48:59 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:48:59 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:48:59 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:48:59 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:48:59 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:00 INFO mapred.JobClient: Running job: job_local_0010
+10/09/06 10:49:00 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:00 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:49:00 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:49:00 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:49:00 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:49:00 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:49:00 INFO mapred.TaskRunner: Task:attempt_local_0010_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:00 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:00 INFO mapred.TaskRunner: Task 'attempt_local_0010_m_000000_0' done.
+10/09/06 10:49:00 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:00 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:49:00 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 2550 bytes
+10/09/06 10:49:00 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:00 INFO mapred.TaskRunner: Task:attempt_local_0010_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:00 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:00 INFO mapred.TaskRunner: Task attempt_local_0010_r_000000_0 is allowed to commit now
+10/09/06 10:49:00 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0010_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:49:00 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:49:00 INFO mapred.TaskRunner: Task 'attempt_local_0010_r_000000_0' done.
+10/09/06 10:49:01 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:49:01 INFO mapred.JobClient: Job complete: job_local_0010
+10/09/06 10:49:01 INFO mapred.JobClient: Counters: 12
+10/09/06 10:49:01 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:49:01 INFO mapred.JobClient:     FILE_BYTES_READ=1203892
+10/09/06 10:49:01 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1502474
+10/09/06 10:49:01 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:49:01 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:49:01 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:49:01 INFO mapred.JobClient:     Map input records=15
+10/09/06 10:49:01 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:49:01 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:49:01 INFO mapred.JobClient:     Spilled Records=196
+10/09/06 10:49:01 INFO mapred.JobClient:     Map output bytes=2352
+10/09/06 10:49:01 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:49:01 INFO mapred.JobClient:     Map output records=98
+10/09/06 10:49:01 INFO mapred.JobClient:     Reduce input records=98
+Sep 6, 2010 10:49:01 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:49:01 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:49:01 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:49:01 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:01 INFO mapred.JobClient: Running job: job_local_0011
+10/09/06 10:49:01 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:02 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:49:02 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:49:02 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:49:02 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:49:02 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:49:02 INFO mapred.TaskRunner: Task:attempt_local_0011_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:02 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:02 INFO mapred.TaskRunner: Task 'attempt_local_0011_m_000000_0' done.
+10/09/06 10:49:02 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:02 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:49:02 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 1302 bytes
+10/09/06 10:49:02 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:02 INFO mapred.TaskRunner: Task:attempt_local_0011_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:02 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:02 INFO mapred.TaskRunner: Task attempt_local_0011_r_000000_0 is allowed to commit now
+10/09/06 10:49:02 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0011_r_000000_0' to build/test/resources/testSmallInput.txt.clusters
+10/09/06 10:49:02 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:49:02 INFO mapred.TaskRunner: Task 'attempt_local_0011_r_000000_0' done.
+10/09/06 10:49:02 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:49:02 INFO mapred.JobClient: Job complete: job_local_0011
+10/09/06 10:49:02 INFO mapred.JobClient: Counters: 12
+10/09/06 10:49:02 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:49:02 INFO mapred.JobClient:     FILE_BYTES_READ=1325404
+10/09/06 10:49:02 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1654201
+10/09/06 10:49:02 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:49:02 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:49:02 INFO mapred.JobClient:     Combine output records=30
+10/09/06 10:49:02 INFO mapred.JobClient:     Map input records=8
+10/09/06 10:49:02 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:49:02 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:49:02 INFO mapred.JobClient:     Spilled Records=60
+10/09/06 10:49:02 INFO mapred.JobClient:     Map output bytes=2240
+10/09/06 10:49:02 INFO mapred.JobClient:     Combine input records=80
+10/09/06 10:49:02 INFO mapred.JobClient:     Map output records=80
+10/09/06 10:49:02 INFO mapred.JobClient:     Reduce input records=30
+Sep 6, 2010 10:49:02 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: The number of record is 8
+Sep 6, 2010 10:49:02 AM org.unigram.likelike.common.LikelikeLogger logInfo
+INFO: Extracting recommendation to build/test/resources/testSmallInput.txt.clusters
+Sep 6, 2010 10:49:02 AM org.unigram.likelike.common.FsUtil checkPath
+INFO: Overiding: build/test/resources/outputLSH
+10/09/06 10:49:02 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+10/09/06 10:49:02 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+10/09/06 10:49:02 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:03 INFO mapred.JobClient: Running job: job_local_0012
+10/09/06 10:49:03 INFO input.FileInputFormat: Total input paths to process : 1
+10/09/06 10:49:03 INFO mapred.MapTask: io.sort.mb = 100
+10/09/06 10:49:03 INFO mapred.MapTask: data buffer = 79691776/99614720
+10/09/06 10:49:03 INFO mapred.MapTask: record buffer = 262144/327680
+10/09/06 10:49:03 INFO mapred.MapTask: Starting flush of map output
+10/09/06 10:49:03 INFO mapred.MapTask: Finished spill 0
+10/09/06 10:49:03 INFO mapred.TaskRunner: Task:attempt_local_0012_m_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:03 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:03 INFO mapred.TaskRunner: Task 'attempt_local_0012_m_000000_0' done.
+10/09/06 10:49:03 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:03 INFO mapred.Merger: Merging 1 sorted segments
+10/09/06 10:49:03 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 5306 bytes
+10/09/06 10:49:03 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:03 INFO mapred.TaskRunner: Task:attempt_local_0012_r_000000_0 is done. And is in the process of commiting
+10/09/06 10:49:03 INFO mapred.LocalJobRunner: 
+10/09/06 10:49:03 INFO mapred.TaskRunner: Task attempt_local_0012_r_000000_0 is allowed to commit now
+10/09/06 10:49:03 INFO output.FileOutputCommitter: Saved output of task 'attempt_local_0012_r_000000_0' to build/test/resources/outputLSH
+10/09/06 10:49:03 INFO mapred.LocalJobRunner: reduce > reduce
+10/09/06 10:49:03 INFO mapred.TaskRunner: Task 'attempt_local_0012_r_000000_0' done.
+10/09/06 10:49:04 INFO mapred.JobClient:  map 100% reduce 100%
+10/09/06 10:49:04 INFO mapred.JobClient: Job complete: job_local_0012
+10/09/06 10:49:04 INFO mapred.JobClient: Counters: 12
+10/09/06 10:49:04 INFO mapred.JobClient:   FileSystemCounters
+10/09/06 10:49:04 INFO mapred.JobClient:     FILE_BYTES_READ=1452146
+10/09/06 10:49:04 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1813216
+10/09/06 10:49:04 INFO mapred.JobClient:   Map-Reduce Framework
+10/09/06 10:49:04 INFO mapred.JobClient:     Reduce input groups=0
+10/09/06 10:49:04 INFO mapred.JobClient:     Combine output records=0
+10/09/06 10:49:04 INFO mapred.JobClient:     Map input records=30
+10/09/06 10:49:04 INFO mapred.JobClient:     Reduce shuffle bytes=0
+10/09/06 10:49:04 INFO mapred.JobClient:     Reduce output records=0
+10/09/06 10:49:04 INFO mapred.JobClient:     Spilled Records=408
+10/09/06 10:49:04 INFO mapred.JobClient:     Map output bytes=4896
+10/09/06 10:49:04 INFO mapred.JobClient:     Combine input records=0
+10/09/06 10:49:04 INFO mapred.JobClient:     Map output records=204
+10/09/06 10:49:04 INFO mapred.JobClient:     Reduce input records=204
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/38/trunk/testlib
+END
+high-scale-lib-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/38/trunk/testlib/high-scale-lib-1.0.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/38/trunk/testlib/commons-lang-2.4.jar
+END
+flexjson-1.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/38/trunk/testlib/flexjson-1.7.jar
+END
+clhm-production-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/38/trunk/testlib/clhm-production-1.0.jar
+END

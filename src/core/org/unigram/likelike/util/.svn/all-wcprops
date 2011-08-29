@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/76/trunk/src/core/org/unigram/likelike/util
+END
+InverseMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/util/InverseMapper.java
+END
+IdentityReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/util/IdentityReducer.java
+END
+AddFeatureMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/37/trunk/src/core/org/unigram/likelike/util/AddFeatureMapper.java
+END
+AddFeatureReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/59/trunk/src/core/org/unigram/likelike/util/AddFeatureReducer.java
+END

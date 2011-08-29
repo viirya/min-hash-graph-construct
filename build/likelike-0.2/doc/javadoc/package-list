@@ -1,0 +1,8 @@
+org.unigram.likelike.common
+org.unigram.likelike.feature
+org.unigram.likelike.lsh
+org.unigram.likelike.lsh.function
+org.unigram.likelike.util
+org.unigram.likelike.util.accessor
+org.unigram.likelike.util.accessor.cassandra
+org.unigram.likelike.validate
